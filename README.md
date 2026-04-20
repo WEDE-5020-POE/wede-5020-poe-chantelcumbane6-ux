@@ -21,6 +21,8 @@ week 4:(20 April 2026)debugged and submitted
 ## Sitemap
 
 ![Website Sitemap][sitemapImage]: mysitemap.jpg.png
+<img src="mysitemap.jpg.png" alt="Site map">
+
 
 ## References
 I TAKE YOU WEDDING CAKES(2026)Wedding cake image.Available at:https://www.itakeyou.co.uk/idea/beautiful-50-wedding-cakes-to-suit-different-styles-73/#google_vignette.(Accessed:13 April 2026)
