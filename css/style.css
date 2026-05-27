@@ -1,0 +1,58 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: pink #f0f0f0;
+    line-height: 1.6;
+}
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.h1 {
+    color: lightblue;
+    font-size: 24px;
+    margin: 0;
+}
+footer{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+p{
+    font-family: 'Times New Roman', serif;
+    color: #333;
+}
+button {
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+a{
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+}
+
+#Services body{
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

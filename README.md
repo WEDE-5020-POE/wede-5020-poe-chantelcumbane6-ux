@@ -20,11 +20,12 @@ week 4:(20 April 2026)debugged and submitted
 
 ## Sitemap
 
-![Website Sitemap][sitemapImage]: mysitemap.jpg.png
-<img src="mysitemap.jpg.png" alt="Site map">
+![Website Sitemap][sitemapImage]:<mysitemap.jpg,png>
 
 
 ## References
 I TAKE YOU WEDDING CAKES(2026)Wedding cake image.Available at:https://www.itakeyou.co.uk/idea/beautiful-50-wedding-cakes-to-suit-different-styles-73/#google_vignette.(Accessed:13 April 2026)
 
 BAY TREE CAKES(2023)Birthday cakes.Available at:https://www.baytreecakes.co.uk/birthday-cakes/(Accessed:13) April 2026
+
+RED ROSE BAKERY.(n.d.). Custom cakes n NJ.Red Rose Bakery.Available at:https://redrosebakerynj.com/custom-birthday-cakes/[Accessed:April 09, 2026 ]
