@@ -17,6 +17,7 @@ week 1:(29 March 2026)Chose two small businesses ,did research on them then crea
 week 2:(03 April 2026)created a website for one proposal
 week 3:(14 April 2026)fixed broken photos and added a sitemap
 week 4:(20 April 2026)debugged and submitted
+week 5:()
 
 ## Sitemap
 

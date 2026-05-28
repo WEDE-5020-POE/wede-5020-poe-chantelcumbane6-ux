@@ -1,25 +1,73 @@
-html{
-    scrollbar-width: auto;
-}
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-}
 body{
-    background-color: #fef2e6;
-    background-image: url('images/background.jpg');
-    background-repeat: repeat;
-    background-size: 200px auto;
-    background-attachment: fixed;
+    background-color: #fff5f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-style: oblique;;
 }
-p{
+header{
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 0;
     text-align: center;
-    font-size: 18px;
-    font-family: 'Arial', sans-serif;
-    color: #333;animation-direction: alternate;
-
+    text-align: center;
+}
+main{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+logo{
+    width: 100px;
+    height: auto;
+}
+nav a:hover{
+    color: #ff69b4;
+}
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1{
+    font-size: 48px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 24px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+btn{
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+h1, h2, h3{
+    color: #d63384;
+}
+<!--cake gallery-->
+.cake-gallery{
+    container-type: inline-size;
+    display: grid;
+    justify-content: right;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.p{
+    color: baby pink;
+    align-text: center;
 }
