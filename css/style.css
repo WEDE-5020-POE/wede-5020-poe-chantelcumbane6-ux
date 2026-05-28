@@ -67,7 +67,40 @@ h1, h2, h3{
     gap: 20px;
     padding: 20px;
 }
-.p{
-    color: baby pink;
-    align-text: center;
+.cakes{
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+.cakes h2{
+    font-size: 36px;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+.cake-container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.cake-box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+}
+.cake-box img{
+    width: 180px;
+    height: auto;
+}
+.h3{
+    color: #d63384;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.p faq{
+    text-align: center;
 }

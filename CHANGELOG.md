@@ -7,6 +7,8 @@ This project follows Semantic Versioning.
 ## [1.0.0] - 2026-04-10
 ### Added
 - ordering form 
+- background colors
+- 
 
 ### Changed
 - updated FAQ section with new policies.
