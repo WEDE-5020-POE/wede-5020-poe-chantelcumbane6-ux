@@ -8,10 +8,12 @@ This project follows Semantic Versioning.
 ### Added
 - ordering form 
 - background colors
+- added "enquire now" button 
 - 
 
 ### Changed
 - updated FAQ section with new policies.
+- 
 
 ### Fixed
 - broken logo and products images now display correctly.
