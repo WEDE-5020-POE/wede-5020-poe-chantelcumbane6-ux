@@ -161,3 +161,76 @@ h1, h2, h3{
     color: #555;
     line-height: 1.5;
 }
+/*ENQUIRY SECTION*/
+.enquiry-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/*FORM BOX*/
+.form-box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+/*MAIN HEADING*/
+.form-box h3{
+    font-size: 36px;
+    color: #d63384;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+/*INPUTS*/
+form input,
+form textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*TEXTAREA*/
+form textarea{
+    height: 50%;
+    resize: none;
+}
+
+/*INPUT FOCUS*/
+form input:focus,
+form textarea:focus{
+    border: 2px solid #ff69b4;
+    outline: none;
+}
+
+/*BUTTON*/
+form .btn{
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/*BUTTON HOVER*/
+form .btn:hover{
+    background-color: #ff1493;
+}
