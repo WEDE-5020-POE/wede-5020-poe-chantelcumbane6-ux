@@ -234,3 +234,28 @@ form .btn{
 form .btn:hover{
     background-color: #ff1493;
 }
+
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1{
+    font-size: 250%;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+.hero h2{
+    color: #5c4033;
+    font-size: 190%;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    font-size: 20px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: normal;
+}
