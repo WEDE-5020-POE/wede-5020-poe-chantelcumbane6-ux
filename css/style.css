@@ -96,11 +96,12 @@ h1, h2, h3{
     color: #d63384;
     margin-bottom: 20px;
 }
-.cake-container div{
+.cake-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    flex-direction: row;
 }
 .cake-box{
     background-color: #fff;
@@ -108,12 +109,13 @@ h1, h2, h3{
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 250px;
+    width: 20%;
     text-align: center;
+
 }
 .cake-box img{
-    width: 180px;
-    height: auto;
+    width: 50%;
+    height: 20%;
 }
 .h3{
     color: #d63384;
