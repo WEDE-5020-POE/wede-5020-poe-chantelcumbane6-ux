@@ -10,6 +10,7 @@ This project follows Semantic Versioning.
 - background colors
 - added "enquire now" button on homepage
 - a better navigator
+- new style on enquiry page
 
 ### Changed
 - updated FAQ section with new policies.
