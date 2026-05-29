@@ -17,7 +17,9 @@ week 1:(29 March 2026)Chose two small businesses ,did research on them then crea
 week 2:(03 April 2026)created a website for one proposal
 week 3:(14 April 2026)fixed broken photos and added a sitemap
 week 4:(20 April 2026)debugged and submitted
-week 5:(15 May 2026) fixed mistakes from part 1 then added a buttons and images
+week 5:(15 May 2026) fixed mistakes from part 1 then added a button and images
+week 6:(20 May 2026) added background colors and fonts
+week 7:(29 May 2026) submitted
 
 
 ## Sitemap
@@ -31,3 +33,5 @@ I TAKE YOU WEDDING CAKES(2026)Wedding cake image.Available at:https://www.itakey
 BAY TREE CAKES(2023)Birthday cakes.Available at:https://www.baytreecakes.co.uk/birthday-cakes/(Accessed:13) April 2026
 
 RED ROSE BAKERY.(n.d.). Custom cakes n NJ.Red Rose Bakery.Available at:https://redrosebakerynj.com/custom-birthday-cakes/[Accessed:April 09, 2026 ]
+
+Pinterest(2026).Cake pictures.Accessed at :https://www.pinterest.com/[Accessed:May 25, 2026]
