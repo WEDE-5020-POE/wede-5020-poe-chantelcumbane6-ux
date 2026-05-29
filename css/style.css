@@ -241,7 +241,7 @@ form .btn:hover{
 }
 .hero h1{
     font-size: 250%;
-    color: #d63384;
+    color: #ffb6c1;
     margin-bottom: 20px;
 }
 
@@ -258,4 +258,33 @@ form .btn:hover{
     margin: 0 auto;
     line-height: 1.5;
     font-weight: normal;
+}
+
+.about wrapper{
+    max-width: 200%;
+    margin: 0 auto;
+}
+
+.about container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about-card{
+    background:#ffb6c1;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.about-card:hover{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.about-title{
+    font-family: playfair display,serif;
+    color: #d63384;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
