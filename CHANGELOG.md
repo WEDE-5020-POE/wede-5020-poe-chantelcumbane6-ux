@@ -11,10 +11,12 @@ This project follows Semantic Versioning.
 - added "enquire now" button on homepage
 - a better navigator
 - new style on enquiry page
+- increase the menu
 
 ### Changed
 - updated FAQ section with new policies.
 - changed the logo to a new one
+- services style
 
 
 ### Fixed
