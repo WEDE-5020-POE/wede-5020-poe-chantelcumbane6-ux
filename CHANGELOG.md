@@ -12,11 +12,14 @@ This project follows Semantic Versioning.
 - a better navigator
 - new style on enquiry page
 - increase the menu
-
+- contact form
+- java functionality
+- functionality on forms to detect errors.
 ### Changed
 - updated FAQ section with new policies.
 - changed the logo to a new one
 - services style
+- enquiry and contacy forms
 
 
 ### Fixed
