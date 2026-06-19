@@ -20,6 +20,8 @@ week 4:(20 April 2026)debugged and submitted
 week 5:(15 May 2026) fixed mistakes from part 1 then added a button and images
 week 6:(20 May 2026) added background colors and fonts
 week 7:(29 May 2026) submitted
+week 8:(05 June 2026)added java functionalities
+week 9:(19 June 2026)submitted my portfolio of evidence on github and netlify
 
 
 ## Sitemap
@@ -35,3 +37,5 @@ BAY TREE CAKES(2023)Birthday cakes.Available at:https://www.baytreecakes.co.uk/b
 RED ROSE BAKERY.(n.d.). Custom cakes n NJ.Red Rose Bakery.Available at:https://redrosebakerynj.com/custom-birthday-cakes/[Accessed:April 09, 2026 ]
 
 Pinterest(2026).Cake pictures.Accessed at :https://www.pinterest.com/[Accessed:May 25, 2026]
+
+w3scools(2026)at :https://w3schools.com/[Accessed":June 05,2026]
