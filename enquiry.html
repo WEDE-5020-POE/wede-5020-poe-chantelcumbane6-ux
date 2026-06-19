@@ -12,6 +12,8 @@
     <!-- logo for the website from unsplash -->
  </header>
  <nav>
+   
+    
 <hr></hr>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -24,12 +26,11 @@
  </nav>
  <section class="enquiry container">
 
-    <div class="form box"
 <h1>Cake Order enquiry</h1>
 <p>If you would like to place an order for a custom cake or have any questions about our services, please fill out the form below:</p>
 
 <h3>Order Form</h3>
-<form action="submit_order.php" method="post">
+<form action="submit_order.php" method="post" onsubmit="return validateForm()">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 
@@ -55,6 +56,9 @@
 
 </div>
 </section>
+
+    <button onclick="goToTop()" id="goToTopBtn" title="Go to top">Top</button>
+
 <footer>   
         <hr></hr>
        <p>&copy; 2024 Chanty's Cakes. All rights reserved.</p>     
