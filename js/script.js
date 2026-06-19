@@ -374,3 +374,8 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Services page ready!');
     console.log(` Total services: ${allServices.length}`);
 });
+// update price after a short deal 
+setTimeout(function() {
+    updatePrice();
+    console.log('Initial price calculated! ');
+}, 200);
