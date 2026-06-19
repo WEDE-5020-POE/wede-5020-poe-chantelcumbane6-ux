@@ -1,0 +1,29 @@
+# robots.txt for Chanty's Cakes
+# Website: Chanty's Cakes Bakery
+
+# Allow all search engines to crawl the site
+User-agent: *
+
+# Allow crawling of all pages
+Allow: /
+
+# Block admin and private folders (if you have them)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /backup/
+
+# Block CSS and JavaScript files (search engines don't need to index these)
+Disallow: /css/
+Disallow: /js/
+
+# Block image folders that aren't important for search
+Disallow: /images/temp/
+Disallow: /images/backup/
+
+# Block file downloads
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.zip$
+
+# Tell Google where to find your sitemap
+Sitemap: https://www.chantyscakes.co.za/sitemap.xml

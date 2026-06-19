@@ -3,4 +3,3 @@ function goToTop() {
         top: 0,
         behavior: 'smooth'
     });
-}
