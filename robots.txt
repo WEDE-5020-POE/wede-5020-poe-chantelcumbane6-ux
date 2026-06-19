@@ -21,9 +21,9 @@ Disallow: /images/temp/
 Disallow: /images/backup/
 
 # Block file downloads
-Disallow: /*.pdf$
-Disallow: /*.doc$
-Disallow: /*.zip$
+Disallow: /*.pdfs
+Disallow: /*.docs
+Disallow: /*.zips
 
 # Tell Google where to find your sitemap
 Sitemap: https://www.chantyscakes.co.za/sitemap.xml

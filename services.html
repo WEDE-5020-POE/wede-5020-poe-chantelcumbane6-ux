@@ -12,6 +12,7 @@
     <!-- logo for the website from unsplash -->
  </header>
 <nav>
+    <ul>
   <hr></hr>
      <a href="index.html">Home</a>
      <a href="about.html">About</a>
@@ -19,9 +20,119 @@
      <a href="services.html">Services</a>
      <a href="enquiry.html">Enquiry</a>
      <a href="faq.html">FAQ</a>
+     </ul>
+
 </nav>
 <hr></hr>
+ <!-- SERVICES SECTION -->
+        <section class="services-section">
+            <div class="services-container">
+                
+                <!-- SEARCH & FILTER (Interactive!) -->
+                
+                <div class="services-controls">
+                    <div class="search-box">
+                        <input type="text" id="serviceSearch" placeholder="🔍 Search services...">
+                    </div>
+                    <div class="filter-box">
+                        <select id="serviceFilter">
+                            <option value="all">All Services</option>
+                            <option value="birthday">Birthday Cakes</option>
+                            <option value="wedding">Wedding Cakes</option>
+                            <option value="occasion">Special Occasion</option>
+                            <option value="cupcake">Cupcakes</option>
+                        </select>
+                    </div>
+                    <div class="sort-box">
+                        <select id="serviceSort">
+                            <option value="default">Sort by: Default</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="name">Name: A to Z</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <!-- SERVICES GRID (Services load here)-->
+                
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Services will be loaded by JavaScript -->
+                </div>
 
+                <!-- LOAD MORE BUTTON-->
+                
+                <div class="load-more-container">
+                    <button id="loadMoreBtn" class="load-more-btn">Load More Services </button>
+                </div>
+            
+                <!-- NO RESULTS MESSAGE-->
+            
+                <div class="no-results" id="noServicesResults">
+                    <p> No services found matching your search.</p>
+                    <p>Try different keywords or <a href="enquiry.html">contact us</a> for custom orders!</p>
+                </div>
+            
+                <!-- CUSTOMIZE YOUR CAKE SECTION-->
+                
+                <div class="customize-section">
+                    <h2> Customize Your Cake</h2>
+                    <p>Want something unique? Use our quick quote tool below!</p>
+                    
+                    <div class="customize-tool">
+                        <div class="customize-row">
+                            <label for="cakeSize">Cake Size:</label>
+                            <select id="cakeSize">
+                                <option value="none" selected>Choose a size</option>
+                                <option value="small">Small (serves 8-12) - R300</option>
+                                <option value="medium">Medium (serves 15-20) - R450</option>
+                                <option value="large">Large (serves 25-35) - R650</option>
+                                <option value="extra">Extra Large (serves 40-50) - R900</option>
+                            </select>
+                        </div>
+                        
+                        <div class="customize-row">
+                            <label for="cakeFlavor">Cake Flavor:</label>
+                            <select id="cakeFlavor">
+                                <option value="none"selected>Choose a flavor</option>
+                                <option value="vanilla">Vanilla</option>
+                                <option value="chocolate" selected>Chocolate</option>
+                                <option value="red-velvet">Red Velvet</option>
+                                <option value="carrot">Carrot</option>
+                                <option value="lemon">Lemon</option>
+                            </select>
+                        </div>
+                        
+                        <div class="customize-row">
+                            <label for="cakeFilling">Filling:</label>
+                            <select id="cakeFilling">
+                                <option value="none" selected>None</option>
+                                <option value="buttercream">Buttercream</option>
+                                <option value="cream-cheese">Cream Cheese</option>
+                                <option value="ganache">Ganache</option>
+                                <option value="fruit">Fruit Filling</option>
+                            </select>
+                        </div>
+                        
+                        <div class="customize-row">
+                            <label for="cakeDesign">Design Complexity:</label>
+                            <select id="cakeDesign">
+                                <option value="simple" selected>Simple - R0</option>
+                                <option value="medium">Medium - R100</option>
+                                <option value="complex">Complex - R250</option>
+                                <option value="premium">Premium - R400</option>
+                            </select>
+                        </div>
+                        
+                        <div class="customize-total">
+                            <h3>Estimated Price: <span id="totalPrice"></span></h3>
+                            <button id="quoteBtn" class="quote-btn">Get Quote </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
 <section class="services-section">
 
 <p><strong>Our Services</strong></p>
